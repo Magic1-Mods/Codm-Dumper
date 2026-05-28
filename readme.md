@@ -25,3 +25,18 @@ cd ~
 chmod +x libcodmdumper.so
 
 ./libcodmdumper.so /sdcard/libunity.so /sdcard/global-metadata.dat /sdcard
+```
+
+
+
+
+```bash
+chmod +x idadumper
+./idadumper /sdcard/libgame.so
+```
+
+# for 64bit, to get a proper dump, i suggest you use the Lua script to dump
+libunity.so
+global-meta.dat
+
+files at runtime
