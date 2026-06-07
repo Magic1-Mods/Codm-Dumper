@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := il2cppdumper
+LOCAL_MODULE := codmdumper
 
 LOCAL_CPP_EXTENSION := .cpp
 
